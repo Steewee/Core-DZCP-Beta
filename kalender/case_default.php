@@ -34,7 +34,7 @@ else if(isset($_GET['y']))
 $month = '';
 for($i = 1; $i <= 12; $i++) {
     $sel = $monat == $i ? 'selected="selected"' : '';
-    $mname = ["1" => _jan,
+         $mname = ["1" => _jan,
                    "2" => _feb,
                    "3" => _mar,
                    "4" => _apr,
